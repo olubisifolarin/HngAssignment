@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 60px;
+}
+
+a{
+  display: block;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+
+#slack{
+  display: none;
+}
+
+#twitter{
+ 
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+#btn_zuri{
+  
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+
+}
+
+#books{
+ 
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+
+}
+
+#book_python{
+  
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+
+}
+
+#pitch{
+  
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+
+}
+
+#book_design{
+  
+  background-color: rgb(219, 203, 203);
+  width: 700px;
+  border-radius: 10px;
+
+}
