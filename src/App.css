@@ -1,10 +1,16 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
 }
 
 img{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin-top: 30px;
   border-radius: 60px;
 }
@@ -14,7 +20,7 @@ a{
   padding: 20px;
   margin: auto;
   margin-bottom: 20px;
-
+ 
 }
 
 #slack{
@@ -66,5 +72,82 @@ a{
   background-color: rgb(219, 203, 203);
   width: 700px;
   border-radius: 10px;
+  text-align: center;
 
 }
+.footer{
+  display: flex;
+  margin-left: 70px;
+  margin-top: 70px;
+ 
+}
+
+h5{
+  margin-left: 300px;
+}
+
+.glo{
+  width: 30px;
+  height: 30px;
+}
+
+.globe{
+  display: inline-flex;
+  float: right;
+  margin-left: 280px;
+ 
+}
+
+.slack{
+ display: inline-flex;
+ 
+}
+ 
+@media only screen and (min-width:320px) and (max-width:1128px) {
+  .App{
+      overflow-x: hidden;
+      overflow-y: hidden;
+      text-align: center;
+     
+  }
+  
+}
+
+@media only screen and (min-width:320px) and (max-width:1128px) {
+  #twitter, #books, #pitch, #book_design, #book_python, #btn_zuri{
+      width: 350px;
+      text-align: center;
+         
+  }
+  
+}
+
+@media only screen and (min-width:320px) and (max-width:1128px) {
+  h5{
+     display: block;
+     margin-left: 20px;
+     
+  }
+  
+}
+
+@media only screen and (min-width:320px) and (max-width:1128px) {
+  .footer{
+     display: block;
+     margin-top: 20px;
+     margin-left: 20px;
+     
+  }
+  
+}
+
+@media only screen and (min-width:320px) and (max-width:1128px) {
+  .globe{
+      display: inline-flex;
+      margin-right: 130px;
+      
+    }
+     
+  }
+  
+

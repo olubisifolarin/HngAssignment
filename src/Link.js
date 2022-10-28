@@ -9,6 +9,7 @@ function Link(){
             <a href="https://background.zuri.team" id="pitch">Background Check for Coders</a>
             <a href="https://books.zuri.team/design-rules" id="book_design">Design Books</a>
         </div>
+
     )
     
 }
