@@ -11,7 +11,6 @@
 img{
   width: 70px;
   height: 70px;
-  margin-top: 30px;
   border-radius: 60px;
 }
 
@@ -20,6 +19,8 @@ a{
   padding: 20px;
   margin: auto;
   margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
  
 }
 
@@ -89,14 +90,22 @@ h5{
 .glo{
   width: 30px;
   height: 30px;
+  margin-top: 30px;
+ 
 }
 
 .globe{
+  
   display: inline-flex;
   float: right;
-  margin-left: 280px;
+  margin-left: 28%;
  
 }
+
+.icon{
+  margin-left: 70%;
+  font-size: 1.5em;
+  }
 
 .slack{
  display: inline-flex;
@@ -106,6 +115,8 @@ h5{
 span{
   color:#E7332B
 }
+
+
  
 @media only screen and (min-width:320px) and (max-width:1128px) {
   .App{
@@ -125,10 +136,20 @@ span{
 }
 
 @media only screen and (min-width:320px) and (max-width:1128px) {
-  h5,h2{
-    margin-left: -40px; 
+  h2{
+    margin-left: -55px; 
     margin-bottom: auto;
+    padding-right: 25px;
+    
   }
+}
+
+@media only screen and (min-width:320px) and (max-width:1128px) {
+    h5{
+      margin-left: -55px; 
+      margin-bottom: auto;
+      
+    }
   
 }
 
@@ -144,7 +165,7 @@ span{
   .footer{
      display: inline-block;
      margin-top: 5px;
-     margin-left: -250px;
+     margin-left: -120px;
      
   }
   
@@ -153,7 +174,8 @@ span{
 @media only screen and (min-width:320px) and (max-width:1128px) {
   .globe{
       display: inline-flex;
-      padding-right: 400px;
+      margin-right: 270px;
+      padding-left: 130px;
     }
      
   }

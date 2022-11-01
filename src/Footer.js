@@ -7,7 +7,7 @@ function Footer(){
             
         <div className="globe">
             <img className="glo" src="./images/globe.png" alt="globe" />
-            <h6>INGRESSIVE<br></br>FOR GOOD</h6>
+            <h4>INGRESSIVE<br></br>FOR GOOD</h4>
         </div>  
             
     </div>

@@ -2,8 +2,8 @@
 function Link(){
     return(
         <div className="link">
-            <a href="https://twitter.com/olubisi_folarin"  id="twitter">Twitter Link</a>
-            <a href="https://training.zuri.team/"  id="btn_zuri">Zuri Team</a>
+            <a href="https://twitter.com/olubisi_folarin"  id="twitter">Twitter Link</a>    
+            <a href="https://training.zuri.team/" title="Meet the Zuri's family" id="btn_zuri">Zuri Team</a>
             <a href="http://books.zuri.team" title="Get your books here at Zuri" id="books">Zuri Book</a>
             <a href="https://books.zuri.team/" title="Become a Pythonista in just 2weeks.Get your Python boook here, u will love it"id="book_python">Python Books</a>
             <a href="https://background.zuri.team" title="Enroll for you training here at Zuri, its free" id="pitch">Background Check for Coders</a>
